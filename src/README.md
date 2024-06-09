@@ -24,7 +24,7 @@ file structure. The top-level modules are as follows.
   The `vpmAppDisplay` sub-folder has classes to perform the animation and graph
   reading and manipulation.
 
-* [vpmDB](https://github.com/openfedem/fedem-mdb/tree/master/vpmDB) -
+* [vpmDB](https://github.com/norcompute/fedem-mdb/tree/main/vpmDB) -
   The mechanism database.
   Contains classes representing the model entities of a FEDEM model,
   with methods for file input/output, topology, etc.
@@ -39,7 +39,7 @@ file structure. The top-level modules are as follows.
   or at least once inside some other UI-classes.
   The `vpmUITopLevels` classes are typically single window UIs.
 
-* [assemblyCreators](https://github.com/openfedem/fedem-mdb/tree/master/assemblyCreators) -
+* [assemblyCreators](https://github.com/norcompute/fedem-mdb/tree/main/assemblyCreators) -
   Generation of parameterized wind turbine and marine structure models.
 
 * [FFuLib](FFuLib) - Application-independent user interface classes.
@@ -51,7 +51,7 @@ file structure. The top-level modules are as follows.
 
 Note that the `vpmDB` and `assemblyCreators` modules are included through
 a [git submodule](https://git-scm.com/book/en/v2/Git-Tools-Submodules)
-reference to the repository [fedem-mdb](https://github.com/SAM/fedem-mdb).
+reference to the repository [fedem-mdb](https://github.com/norcompute/fedem-mdb).
 
 ## Class name convention
 
@@ -59,9 +59,9 @@ The classes are typically named by what module they belong to.
 Classes prefixed with a double 'F', e.g., `FFaVec3`, belong to the
 "Fedem Foundation" set of classes. They are application-independent classes that
 can be used as a building block. Most of the FF-classes are located in the
-repository [fedem-foundation](https://github.com/openfedem/fedem-foundation),
+repository [fedem-foundation](https://github.com/norcompute/fedem-foundation),
 which is included as a submodule of the
-[fedem-mdb](https://github.com/SAM/fedem-mdb) repository.
+[fedem-mdb](https://github.com/norcompute/fedem-mdb) repository.
 
 * FFa - Auxiliary classes
 * FFl - FE part handling

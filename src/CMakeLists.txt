@@ -52,7 +52,7 @@ endif ( "${USE_QWTLIB}" STREQUAL "External" )
 # List all subfolders from the fedem-foundation repository in this project
 #
 
-set ( USE_QT Qt4 )
+set ( USE_QT Qt6 )
 set ( USE_VISUALS TRUE )
 set ( USE_VERTEXOBJ TRUE )
 set ( USE_CONNECTORS TRUE )
